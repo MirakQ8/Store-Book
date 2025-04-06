@@ -49,23 +49,10 @@ Follow these steps to set up the app:
    ```bash
     flutter pub get
    ```
-3. **Create a Firebase project**
-    * Go to [Firebase](https://firebase.google.com/), and create a new project.
-    * Go to Authentication > Sign-in method, and make sure to enable  the Email/Password sign-in provider.
-    * Then Integrate it with the app using the following command:
-      ```bash
-         flutterfire configure
-      ```
-4. **Generate necessary files**
-   * Use the build_runner tool to generate required files:
-   ```bash
-    dart run build_runner build -d 
-   ```
-5. **Run the app**
+   
+3. **Run the app**
    ```bash
     flutter run
    ```
 ---
 
-## Contact
-For questions or feedback, please contact dilmandev@gmail.com.
